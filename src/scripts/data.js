@@ -1,4 +1,4 @@
-async function getData() {
+async function getData() {    
     const xs = [];
     const ys = [];
 
@@ -13,8 +13,7 @@ async function getData() {
         xs.push(year);
         const temp = columns[1];
         ys.push(parseFloat(temp) + 14);        
-    });
-
+    });    
     return {xs,ys};
 }
 
